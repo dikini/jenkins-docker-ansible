@@ -1,6 +1,6 @@
 ## Jenkins, docker and ansible in a docker container
 
-This is a simple image, built on top of the stock https://jenkins.io (docker image)[https://hub.docker.com/r/jenkins/jenkins/] .It adds (ansible)[https://ansible.com] and (docker-ce)[https://docker.com].
+This is a simple image, built on top of the stock https://jenkins.io [docker image](https://hub.docker.com/r/jenkins/jenkins/) .It adds [ansible](https://ansible.com) and [docker-ce](https://docker.com).
 
 ## Running jenkins in docker
 
