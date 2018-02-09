@@ -20,7 +20,8 @@ docker build -t dikini/jenkins-docker-ansible .
 
 ## TODO:
 
-- [] - add the jenkins user to the docker group
-- [] - provide a minimal list of plugins
-- [] - remove the 'install plugins' banner after the previous task is complete
+- [ ] - add the jenkins user to the docker group
+- [ ] - provide a minimal list of plugins
+- [ ] - remove the 'install plugins' banner after the previous task is complete
+- [ ] - add examples
 
