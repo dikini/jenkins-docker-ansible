@@ -1,4 +1,4 @@
-FROM jenkins/jenkins
+FROM jenkins/jenkins:lts
 
 #TODO: prepare 
 #COPY plugins.txt /usr/share/jenkins/ref/plugins.txt
