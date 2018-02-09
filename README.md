@@ -25,3 +25,8 @@ docker build -t dikini/jenkins-docker-ansible .
 - [ ] - remove the 'install plugins' banner after the previous task is complete
 - [ ] - add examples
 
+## Extra documentation
+
+- [jenkins](https://github.com/jenkinsci/docker/blob/master/README.md) docker image
+- [ansible](https://docs.ansible.com)
+- [docker](https://docs.docker.com/)
