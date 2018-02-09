@@ -9,3 +9,18 @@ Instead of a docker-in-docker type scheme, this image requires mounting the dock
 ```bash
 docker run -p 8080:8080 -p 50000:50000 -v /var/run/docker.sock:/var/run/docker.sock dikini/jenkins-docker-ansible
 ```
+
+## Building
+
+To build the image:
+
+```bash
+docker build -t dikini/jenkins-docker-ansible .
+```
+
+## TODO:
+
+- [] - add the jenkins user to the docker group
+- [] - provide a minimal list of plugins
+- [] - remove the 'install plugins' banner after the previous task is complete
+
